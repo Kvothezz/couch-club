@@ -1,0 +1,114 @@
+.match-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.match-sections {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.match-section {
+  flex: 1;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  border: 1px solid #eee;
+}
+
+.match-section h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.create-btn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #e50914;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.create-btn:hover {
+  background-color: #b20710;
+}
+
+.session-code {
+  margin-top: 20px;
+  background-color: #fff;
+  border: 2px dashed #ccc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.session-code span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #007bff;
+  letter-spacing: 5px;
+}
+
+.join-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.join-input {
+  padding: 15px;
+  font-size: 1.5rem;
+  text-align: center;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.join-btn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.join-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .match-container {
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  .match-sections {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .match-section {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .session-code span {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+}
